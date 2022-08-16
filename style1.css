@@ -181,14 +181,21 @@ header .navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
-
-.about .row{
-     
-  padding-bottom: 50px;
-    display: flex;
+.about{
+ 
+    margin-top:-400px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding:1rem 0;
+  
+}
+
+.about .row{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
 }
 
 .about .row .info{
@@ -277,7 +284,7 @@ header .navbar ul li a:hover{
 
 .education .box-container .box p{
     font-size: 1.4rem;
-    color:#eee;
+    color:#eee; 
     padding: 1rem 0;
 }
 
@@ -293,37 +300,12 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff; 
     
-}
+} 
 
-.portfolio .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:2rem 0;
-}
-
-.portfolio .box-container .box{
-    height: 20rem;
-    width:26rem;
-    border-radius: 1rem;
-    margin:2rem;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.portfolio .box-container .box img{
-    height:100%;
-    width:100%;
-    object-fit: cover;
-}
-
-.portfolio .box-container .box:hover img{
-    transform: scale(1.2);
-}
 
 .contact .row{
   
+  padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -336,31 +318,8 @@ header .navbar ul li a:hover{
     padding-bottom: 0;
 }
 
-.contact .row form{
-    flex:1 1 45rem;
-    padding:2rem;
-    margin:2rem;
-    margin-bottom: 4rem;
-}
 
-/* .contact .row form .box{
-    padding:1.5rem;
-    margin:1rem 0;
-    background:#3333;
-    color:#fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width:100%;
-}
 
-.contact .row form .box::placeholder{
-    text-transform: capitalize;
-}
-
-.contact .row form .message{
-    height: 15rem;
-    resize: none;
-}
 
 .contact .row .content .title{
     text-transform: uppercase;
@@ -368,10 +327,10 @@ header .navbar ul li a:hover{
     font-size: 3rem;
     padding-bottom: 2rem;
 }
- */
+
 
 .contact .row .content .info h3{
-    display: flex;
+    
     align-items: center;
     font-size: 2rem;
     color:#eee;
@@ -414,7 +373,7 @@ header .navbar ul li a:hover{
 
 
 
-/* media queries  */
+/* media queries  */ 
 
 @media (max-width:1000px){
 
@@ -431,11 +390,11 @@ header .navbar ul li a:hover{
 @media (max-width:991px){
 
    header{
-       left:-120%;
+       
    }
 
    #menu{
-       display: block;
+      
    }
 
    header.toggle{
