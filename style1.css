@@ -181,15 +181,6 @@ header .navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
-.about{
- 
-    margin-top:-400px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:1rem 0;
-  
-}
 
 .about .row{
      
