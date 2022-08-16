@@ -197,7 +197,7 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
     padding:1rem 0;
 }
-
+padding-bottom:50px;
 .about .row .info{
     flex:1 1 48rem;
     padding:2rem 1rem;
