@@ -230,6 +230,7 @@ i{
 
 .footer-clean .item.social {
   text-align:right;
+  overflow:hidden;
 }
 
 @media (max-width:767px) {
